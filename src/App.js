@@ -62,3 +62,6 @@ function App() {
    );
 }
    export default App
+
+
+   //falta agregar styles
