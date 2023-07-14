@@ -1,0 +1,15 @@
+.cardsContainer{
+
+display: flex;
+flex-direction:row;
+justify-content:space-between;
+margin: auto;
+width: 80%;
+background-color: #5e63b6;
+padding: 2em;
+border-radius: 15px;
+flex-wrap: wrap;
+max-width: 900px; /* Ancho máximo del contenedor principal */
+  margin: 0 auto; /* Centrar el contenedor en la página */
+
+}

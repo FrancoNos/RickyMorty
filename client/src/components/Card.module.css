@@ -1,0 +1,70 @@
+.letters {
+  letter-spacing: -0.5px;
+  font-size: 16px; 
+  
+}
+
+.container {
+    background-color: #f5c7f7;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    -webkit-box-shadow: 6px 0px 6px 0px rgba(0,0,0,0.39);
+    -moz-box-shadow: 6px 0px 6px 0px rgba(0,0,0,0.39);
+    box-shadow: 6px 0px 6px 0px rgba(0,0,0,0.39);
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .container:hover{
+    background-color: #f4dff5;
+  }
+
+  .image{
+   max-height: 250px;
+  }
+
+  .button{
+    display: flex;
+    justify-content: center;
+  }
+
+  .onClose{
+    border:0px;
+    margin-left: 70%;
+    background-color:  #a393eb ;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    transition: 0.5s;
+  }
+  .onClose:hover{
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+    opacity: 90%;
+    cursor: pointer;
+
+  }
+
+  .favo{
+    border:0px;
+    background-color: #a393eb;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    transition: 0.5s;
+  }
+  .favo:hover{
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+    opacity: 90%;
+    cursor: pointer;
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
